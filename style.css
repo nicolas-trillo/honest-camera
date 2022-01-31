@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  color: white;
+}
+.container {
+  width: 40rem;
+  padding: 1.5rem;
+  height: fit-content;
+  max-height: 95vh;
+  max-width: 95vw;
+  border: 1px solid rgb(110, 117, 124);
+  border-radius: 1rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.btns {
+  align-self: flex-end;
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+  margin-top: 3rem;
+  justify-content: flex-end;
+}
